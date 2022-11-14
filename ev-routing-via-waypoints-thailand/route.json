@@ -1,0 +1,135 @@
+{
+    "id": "2fb62246-e3a8-425c-914e-05d77d41e1f2",
+    "sections": [
+        {
+            "id": "a1f0a884-9082-41e5-8023-6fd0386f0fbd",
+            "type": "vehicle",
+            "actions": [
+                //more actions...
+            ],
+            "turnByTurnActions": [
+                // more turnByTurnActions
+            ],
+            "departure": {
+                "time": "2022-10-26T05:52:28+07:00",
+                "place": {
+                    "type": "place",
+                    "location": {
+                        "lat": 19.91051,
+                        "lng": 99.84061,
+                        "elv": 358
+                    },
+                    "originalLocation": {
+                        "lat": 19.91048,
+                        "lng": 99.8405759
+                    }
+                },
+                "charge": 99
+            },
+            "arrival": {
+                "time": "2022-10-26T08:47:36+07:00",
+                "place": {
+                    "type": "place",
+                    "location": {
+                        "lat": 18.7959553,
+                        "lng": 98.9792572,
+                        "elv": 282
+                    },
+                    "originalLocation": {
+                        "lat": 18.7961429,
+                        "lng": 98.979263
+                    },
+                    "waypoint": 0
+                },
+                "charge": 34.2907
+            },
+            "travelSummary": {
+                "duration": 10508,
+                "length": 189183,
+                "consumption": 64.7093,
+                "baseDuration": 10022
+            },
+            "polyline": "<<<encoded polyline>>>",
+            "language": "en-us",
+            "transport": {
+                "mode": "car"
+            }
+        },
+        {
+            "id": "71926344-236b-47cc-afc1-e8f86d5b969d",
+            "type": "vehicle",
+            "actions": [
+               //more actions..
+            ],
+            "turnByTurnActions": [
+                // more turnByTurnActions
+            ],
+            "postActions": [
+                {
+                    "action": "chargingSetup",
+                    "duration": 300
+                },
+                {
+                    "action": "charging",
+                    "duration": 432,
+                    "consumablePower": 120,
+                    "arrivalCharge": 32.3298,
+                    "targetCharge": 45.3
+                }
+            ],
+            "departure": {
+                "time": "2022-10-26T08:47:36+07:00",
+                "place": {
+                    "type": "place",
+                    "location": {
+                        "lat": 18.7959553,
+                        "lng": 98.9792572,
+                        "elv": 282
+                    },
+                    "originalLocation": {
+                        "lat": 18.7961429,
+                        "lng": 98.979263
+                    },
+                    "waypoint": 0
+                },
+                "charge": 34.2907
+            },
+            "arrival": {
+                "time": "2022-10-26T08:55:14+07:00",
+                "place": {
+                    "type": "chargingStation",
+                    "location": {
+                        "lat": 18.767966,
+                        "lng": 98.98347,
+                        "elv": 267
+                    },
+                    "id": "ZGY6NDNjZjAzYzNlYmMzMDg4OWJkMzkzMWE4MmUwYmQ2NzM",
+                    "attributes": {
+                        "power": 120,
+                        "current": null,
+                        "voltage": null,
+                        "supplyType": "dc",
+                        "connectorType": "iec62196Type2Combo"
+                    },
+                    "brand": {
+                        "hrn": "d41d8cd98f00b204e9800998ecf8427e"
+                    }
+                },
+                "charge": 32.3298
+            },
+            "travelSummary": {
+                "duration": 458,
+                "length": 5091,
+                "consumption": 1.9609,
+                "baseDuration": 440
+            },
+            "polyline": "<<<encoded polyline>>>",
+            "language": "en-us",
+            "transport": {
+                "mode": "car"
+            }
+        },
+        // more sections....
+        
+    ]
+}
