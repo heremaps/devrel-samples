@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>HERE Maps Explore - Amazon Location Service</title>
+
+    <!-- Styles -->
+    <link href="https://unpkg.com/maplibre-gl@1.14.0/dist/maplibre-gl.css" rel="stylesheet" />
+    <link href="main.css" rel="stylesheet" />
+  </head>
+  
+  <body>
+    <header>
+      <h1>Explore HERE capabilities avaliable on Amazon Location Service</h1>
+    </header>
+    <main>
+      <div id="map"></div>
+      <aside>
+        <h2>Select HERE map styles</h2>
+        <button id="change" onclick="changeMapJapan()">HERE Explore - Japan<img src="here_explore.png"></button>
+        <button id="change" onclick="changeMapLA()">HERE Explore Truck - LA<img src="here_explore_truck.png"></button>
+        <button id="change" onclick="changeMapBerlin()">HERE Contrast - Berlin<img src="here_contrast.png"></button>
+        <button id="change" onclick="changeMapImagery()">HERE Imagery<img src="here_imagery.jpg"></button>
+        <button id="change" onclick="changeMapHybrid()">HERE Hybrid<img src="here_hybrid.jpg"></button>
+        <br>
+        <h2>Place Indexes - HERE</h2>
+        <p>Click anywhere on the map to see the response</p>
+        <p>HERE’s geocoding and reverse geocoding service provides precise point and micro point addresses, businesses, landmarks and points of interest with detailed attribution, refreshed daily.</p>
+        <p><a href="https://docs.aws.amazon.com/location/latest/APIReference/API_SearchPlaceIndexForPosition.html">SearchPlaceIndexForPosition</a> - Reverse geocodes a given coordinate and returns a legible address. Allows you to search for Places or points of interest near a given position. </p>
+        <pre id="response"></pre>
+      </aside>
+    </main>
+    <footer>This is a simple Amazon Location Service app to explore HERE offerings. This sample is built on top of <a href="https://github.com/aws-samples/amazon-location-samples/tree/main/maplibre-gl-js-quick-start">this sample.</a></footer>
+    
+    <!-- JavaScript dependencies -->
+    <script src="https://unpkg.com/maplibre-gl@1.14.0/dist/maplibre-gl.js"></script>
+    <script src="https://sdk.amazonaws.com/js/aws-sdk-2.1030.0.min.js"></script>
+    <script src="https://unpkg.com/@aws-amplify/core@3.7.0/dist/aws-amplify-core.min.js"></script>
+    
+    <!-- JavaScript for the app -->
+    <script src="main.js"></script>
+  </body>
+</html>
