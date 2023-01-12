@@ -11,9 +11,10 @@ The samples that are available are as follows:
 
 ## License
 
-Copyright (C) 2022 HERE Europe B.V.
+Copyright (C) 2022-2023 HERE Europe B.V.
 
 Licensed under the Apache-2.0 license, see the [LICENSE](./LICENSE) file in the root of this project for license details.
 
+In addition, please note that the fonts are under a different set of licenses.
 
-
+For other use cases not listed in the license terms, please contact us.
