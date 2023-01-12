@@ -11,12 +11,3 @@ See the [quick start guide](https://docs.aws.amazon.com/location/latest/develope
 1. Fill replace the values for `identityPoolId`, `mapName`, and `placesName` in [`main.js`](main.js#L5-L10) with the information from steps 1 and 2.
 1. Open [quickstart.html](quickstart.html) in a browser to run the app.
 
-
-## Security
-
-See [CONTRIBUTING](../CONTRIBUTING.md#security-issue-notifications) for more information.
-
-
-## License
-
-This library is licensed under the MIT-0 License. See the LICENSE file.
