@@ -1,6 +1,6 @@
 # Developer Relation Samples
 
-This repository has source code and resources related to the sample application that is embeeded in HERE Developer blog or any other publication.
+This repository has source code and resources related to the sample applications that are embeeded in HERE Developer blog or any other publication.
 
 ## Available Samples
 
