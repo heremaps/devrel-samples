@@ -6,7 +6,7 @@ This repository has source code and resources related to the sample application 
 
 The samples that are available are as follows:
 
-- [Thailand EV Routing](https://github.com/heremaps/devrel-samples/tree/main/ev-routing-via-waypoints-thailand) that was embedded in this [blog](Thailand EV Roadtrip)
+- [Thailand EV Routing](https://github.com/heremaps/devrel-samples/tree/main/ev-routing-via-waypoints-thailand) 
 - [HERE Geocoding on Amazon Location Service](https://www.youtube.com/playlist?list=PLTlZUhyLwZTcr5kukSrWjkwtM0WDOUsA5)
 
 ## License
