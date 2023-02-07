@@ -7,7 +7,8 @@ This repository has source code and resources related to the sample applications
 The samples that are available are as follows:
 
 - [Thailand EV Routing](https://github.com/heremaps/devrel-samples/tree/main/ev-routing-via-waypoints-thailand) 
-- [HERE Geocoding on Amazon Location Service](https://www.youtube.com/playlist?list=PLTlZUhyLwZTcr5kukSrWjkwtM0WDOUsA5)
+- [HERE Geocoding on Amazon Location Service](https://github.com/heremaps/devrel-samples/tree/main/aws-here-geocoding)
+- [Discover POIs with HERE Geocoding & Search API](https://github.com/heremaps/devrel-samples/tree/main/discover-poi)
 
 ## License
 
