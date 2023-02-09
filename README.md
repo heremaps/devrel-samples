@@ -1,6 +1,6 @@
 # Developer Relation Samples
 
-This repository has source code and resources related to the sample applications that are embeeded in HERE Developer blog or any other publication.
+This repository has source code and resources related to the sample applications that are embedded in HERE Developer blog or any other publication.
 
 ## Available Samples
 
@@ -9,6 +9,7 @@ The samples that are available are as follows:
 - [Thailand EV Routing](https://github.com/heremaps/devrel-samples/tree/main/ev-routing-via-waypoints-thailand) 
 - [HERE Geocoding on Amazon Location Service](https://github.com/heremaps/devrel-samples/tree/main/aws-here-geocoding)
 - [Discover POIs with HERE Geocoding & Search API](https://github.com/heremaps/devrel-samples/tree/main/discover-poi)
+- [HERE Routing supports polygons for avoid area](https://github.com/heremaps/devrel-samples/tree/main/polygon-avoid-routing)
 
 ## License
 
