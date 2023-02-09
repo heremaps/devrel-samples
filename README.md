@@ -10,6 +10,8 @@ The samples that are available are as follows:
 - [HERE Geocoding on Amazon Location Service](https://github.com/heremaps/devrel-samples/tree/main/aws-here-geocoding)
 - [Discover POIs with HERE Geocoding & Search API](https://github.com/heremaps/devrel-samples/tree/main/discover-poi)
 - [HERE Routing supports polygons for avoid area](https://github.com/heremaps/devrel-samples/tree/main/polygon-avoid-routing)
+- [IML VS GeoJSON](https://github.com/heremaps/devrel-samples/tree/main/iml-vs-geojson)
+
 
 ## License
 
