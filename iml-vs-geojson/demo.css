@@ -1,0 +1,17 @@
+
+#imlMap {
+    width: 95%;
+    height: 35%;
+    background: grey;
+}
+
+#geojsonMap {
+    width: 95%;
+    height: 35%;
+    background: grey;
+}
+
+#panel {
+    width: 100%;
+    height: 400px;
+}
