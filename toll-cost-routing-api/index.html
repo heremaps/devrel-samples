@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+    <title>Map with the truck routes and road restrictions</title>
+    <link rel="stylesheet" type="text/css" href="https://js.api.here.com/v3/3.1/mapsjs-ui.css" />
+    <link rel="stylesheet" type="text/css" href="demo.css" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="template.css" />
+    <script type="text/javascript" src='../test-credentials.js'></script>
+    <script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-core.js"></script>
+    <script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-service.js"></script>
+    <script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-ui.js"></script>
+    <script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-mapevents.js"></script>
+    <style type="text/css">
+      html, body, #map {
+      padding: 0;
+      margin: 0;
+      height: 100%;
+      width: 100%;
+    }
+    #panel {
+    	position: fixed;
+    	left: 10px;
+      top: 10px;
+      margin-top: 0px; 
+      padding: 0px 15px; 
+      min-height: 0px;
+      font-weight: normal;
+      box-sizing: border-box;
+      display: block;
+      margin-bottom: 10px;
+      max-height: 98%;
+      overflow-y: auto;
+      padding-bottom: 0px;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 0px;
+      max-width: 30%;
+      background-color: #fff;
+      z-index: 99;
+      border-radius: 0.5rem;
+      box-shadow: 0 4px 6px -1px rgb(0 0 0 / 10%), 0 2px 4px -1px rgb(0 0 0 / 6%);
+    }
+
+    @media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+
+  #panel {
+    top:72.5%;
+    left:10px;
+    right: 10px;
+    max-width: 100%;
+    max-height: 25%;
+  }
+  
+}
+    </style>
+  </head>
+  <body id="markers-on-the-map">
+    <div id="map"></div>
+    <div id="panel">
+
+        <h1>Map with the truck routes, tolls cost and road restrictions</h1>
+ 
+    <p>This example calculates and displays 2 different truck routes with the same start and end positions,
+      but various truck attributes. The start position is in <b>Manhattan</b> and the end position on the opposite bank in <b>Newport</b>.
+    <p>
+      <ul>
+        <li>The violet route shows that a truck with the four acles transporting flammable goods should take a much longer detour
+          (uses the <code>truck[shippedHazardousGoods]</code> parameter of the Routing API).</li>
+          <ul>
+            <li>Toll System: VERRAZANO-NARROWS BRIDGE </li>
+            <ul>
+              <li> Toll Collection Location: "New York", location: {lat: 40.60219, lng: -74.06288}</li> 
+              <li> Payment Method: Transponder, Cost: 32.33 USD </li>
+              <li> Payment Method: Video Toll, Cost: 55.05 USD </li>
+            </ul>
+            <li>Toll System: NEW JERSEY TURNPIKE</li>
+            <ul>
+              <li> Toll Collection Location: "Jersey City", location: {lat: 40.68404, lng: -74.0978}</li>
+              <li> Toll Collection Location: "Jersey City", location: {lat: 40.70615, lng: -74.06198}</li>  
+              <li> Payment Method: Transponder, Cost: 5.97 USD </li>
+              <li> Payment Method: Cash, Cost: 6.85 USD </li>
+            </ul>
+          </ul>
+          <li>The green route shows that a truck must use <b>Lincoln Tunnel</b> instead of <b>Holland Tunnel</b>
+            when it has four axles (uses the <code>truck[axleCount]</code> parameter of the Routing API).</li>
+              <ul><li>No tolls cost associated</li></ul>
+      </ul>
+    </p>
+    <p>More information about above mentioned routing request parameters can be found <a href="https://developer.here.com/documentation/routing-api/dev_guide/topics/use-cases/truck-routing.html" target="_blank">here</a>.</p>
+    <p>
+      The truck restrictions layer is set as a base map.
+    </p>
+  </div>
+   
+    
+    <script type="text/javascript" src='demo.js'></script>
+  </body>
+</html>
