@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+    <title>HERE Geocoding now supports new Saudi Arabia Short Addresses</title>
+    <link rel="stylesheet" type="text/css" href="https://js.api.here.com/v3/3.1/mapsjs-ui.css" />
+    <link rel="stylesheet" type="text/css" href="demo.css" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="template.css" />
+    <script type="text/javascript" src='../test-credentials.js'></script>    
+    <script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-core.js"></script>
+    <script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-service.js"></script>
+    <script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-ui.js"></script>
+    <script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-mapevents.js"></script>
+    <style type="text/css">
+      html, body, #map {
+      padding: 0;
+      margin: 0;
+      height: 100%;
+      width: 100%;
+    }
+    #change {
+  padding: 5px;
+  margin: 5px;
+}
+
+#change img {
+  display: block;
+  height: auto;  
+  width: 10rem;
+}
+    #panel {
+    	position: fixed;
+    	left: 10px;
+      top: 10px;
+      margin-top: 0px; 
+      padding: 0px 15px; 
+      min-height: 0px;
+      font-weight: normal;
+      box-sizing: border-box;
+      display: block;
+      margin-bottom: 10px;
+      max-height: 98%;
+      overflow-y: auto;
+      padding-bottom: 0px;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 0px;
+      max-width: 30%;
+      background-color: #fff;
+      z-index: 99;
+      border-radius: 0.5rem;
+      box-shadow: 0 4px 6px -1px rgb(0 0 0 / 10%), 0 2px 4px -1px rgb(0 0 0 / 6%);
+    }
+
+    @media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+
+  #panel {
+    top:72.5%;
+    left:10px;
+    right: 10px;
+    max-width: 100%;
+    max-height: 25%;
+  }
+  
+}
+    </style>
+  </head>
+  <body id="geocode">
+
+    <div id="map"></div>
+    <div id="panel">
+      <h2>HERE Geocoding now supports new Saudi Arabia Short Addresses</h2>
+      <h3>Click on one of short addresses in Saudi Arabia below</h3>
+      <button id="change" onclick="changeto1()">RCTB4359</button>
+      <button id="change" onclick="changeto2()">RAHA3443</button>
+      <button id="change" onclick="changeto3()">RHWA3184</button>
+      <button id="change" onclick="changeto4()">RRRD2929</button>
+      <h3>Response from HERE Geocoding</h3>
+      <div id="response"></div>
+    </div>
+    <script type="text/javascript" src='demo.js'></script>
+  </body>
+</html>

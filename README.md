@@ -12,6 +12,7 @@ The samples that are available are as follows:
 - [HERE Routing supports polygons for avoid area](https://github.com/heremaps/devrel-samples/tree/main/polygon-avoid-routing)
 - [IML VS GeoJSON](https://github.com/heremaps/devrel-samples/tree/main/iml-vs-geojson)
 - [Toll Cost Calculation Routing API](https://github.com/heremaps/devrel-samples/tree/main/toll-cost-routing-api)
+- [Geocodo Short Address - Saudi Arabia](https://github.com/heremaps/devrel-samples/tree/main/geocode-short-address-sau)
 
 
 ## License
