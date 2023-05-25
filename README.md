@@ -13,7 +13,7 @@ The samples that are available are as follows:
 - [IML VS GeoJSON](https://github.com/heremaps/devrel-samples/tree/main/iml-vs-geojson)
 - [Toll Cost Calculation Routing API](https://github.com/heremaps/devrel-samples/tree/main/toll-cost-routing-api)
 - [Geocodo Short Address - Saudi Arabia](https://github.com/heremaps/devrel-samples/tree/main/geocode-short-address-sau)
-
+- [Pubic Transit Station Search API v8](https://github.com/heremaps/devrel-samples/tree/main/public-transit-search-station)
 
 ## License
 
