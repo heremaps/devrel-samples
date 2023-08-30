@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+    <title>Browse EV Charging Stations with HERE Geocoding & Search API</title>
+    <link rel="stylesheet" type="text/css" href="https://js.api.here.com/v3/3.1/mapsjs-ui.css" />
+    <link rel="stylesheet" type="text/css" href="demo.css" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="template.css" />
+    <script type="text/javascript" src='../test-credentials.js'></script>
+    <script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-core.js"></script>
+    <script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-service.js"></script>
+    <script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-ui.js"></script>
+    <script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-mapevents.js"></script>
+    <style type="text/css">
+      html, body, #maps {
+      padding: 0;
+      margin: 0;
+      height: 100%;
+      width: 100%;
+    }
+    #discoveryTitle {
+    	position: fixed;
+    	left: 10px;
+      top:10px;
+      margin-top: 0px; 
+      padding: 0px 15px; 
+      min-height: 100px;
+      box-sizing: border-box;
+      display: block;
+      margin-bottom: 10px;
+      max-height: 200px;
+      overflow-y: auto;
+      padding-bottom: 0px;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 0px;
+      max-width: 19%;
+      background-color: #fff;
+      z-index: 99;
+      border-radius: 0.5rem;
+      box-shadow: 0 4px 6px -1px rgb(0 0 0 / 10%), 0 2px 4px -1px rgb(0 0 0 / 6%);
+    }
+    #discoveryPanel {
+    	position: fixed;
+    	left: 10px;
+      top: 200px;
+      margin-top: 0px; 
+      padding: 0px 15px; 
+      min-height: 0px;
+      box-sizing: border-box;
+      display: block;
+      margin-bottom: 10px;
+      max-height: 70%;
+      overflow-y: auto;
+      padding-bottom: 0px;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 0px;
+      max-width: 19%;
+      background-color: #fff;
+      z-index: 99;
+      border-radius: 0.5rem;
+      box-shadow: 0 4px 6px -1px rgb(0 0 0 / 10%), 0 2px 4px -1px rgb(0 0 0 / 6%);
+    }
+    #cityDropDown {
+    width: 100%;
+    outline-offset: 2px;
+    outline: transparent solid 2px;
+    padding-bottom: 1px;
+    font-weight: 600;
+    background-color: #F7FAFC;
+    padding-inline: 1rem 2rem;
+    height: 2rem;
+    color: #00AFAA;
+   }
+
+    @media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  #discoveryTitle {
+    top:10px;
+    left:10px;
+    right: 10px;
+    max-width: 100%;
+    max-height: 120px;
+  }
+  #discoveryPanel {
+    top:72.5%;
+    left:10px;
+    right: 10px;
+    max-width: 100%;
+    max-height: 25%;
+  }
+  
+}
+    </style>
+  </head>
+  <body id="geocode">
+    <div id="maps">
+      <div id="discoveryTitle"></div>
+      <div id="discoveryPanel"></div>
+    </div>
+    <script type="text/javascript" src='demo.js'></script>
+  </body>
+</html>
