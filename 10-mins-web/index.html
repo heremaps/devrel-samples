@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+      <title>10-Min Map App<</title>
+
+      <!-- Step 3: Load the SDK Library and Style Sheet -->
+      <script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-core.js"></script>
+      <script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-service.js"></script>
+      <script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-ui.js"></script>
+      <script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-mapevents.js"></script>
+      <link rel="stylesheet" type="text/css" href="https://js.api.here.com/v3/3.1/mapsjs-ui.css" />
+</head>
+
+<body>
+<!-- Step 4: Create a div for the Map -->
+<div id="mapContainer" style="width: 100vw; height: 50vw; align-self: center;"></div>
+
+<script>
+      // Step 5: Create an Instance of the H.service.Platform Object 
+      // Initialize the platform object
+      var platform = new H.service.Platform({
+        apikey: 'YOUR_API_KEY_HERE'
+      });
+
+      // Step 6: Initialize the Map 
+      // Obtain the default map types from the platform object
+      var defaultLayers = platform.createDefaultLayers();
+
+      // Instantiate (and display) a map object
+      var map = new H.Map(
+        document.getElementById('mapContainer'),
+        defaultLayers.vector.normal.map, {
+          zoom: 12,
+          center: {lat:34.05, lng:-118.24}
+        });
+      
+      // Step 7: Enable Map Interaction 
+      // Enable the event system on the map instance
+      var mapEvents = new H.mapevents.MapEvents(map);
+      
+      // Instantiate the default behavior with mapEvents object
+      var behavior = new H.mapevents.Behavior(mapEvents);
+
+      // Step 8: Add UI components 
+      // Create the default UI
+      var ui = H.ui.UI.createDefault(map, defaultLayers);
+
+      // Bonus: Resize map
+      window.addEventListener('resize', () => map.getViewPort().resize());
+
+    </script>
+    
+</body>
+</html>
