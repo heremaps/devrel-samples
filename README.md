@@ -18,6 +18,8 @@ The samples that are available are as follows:
 - [Pubic Transit Next Departures API v8](https://github.com/heremaps/devrel-samples/tree/main/public-transit-next-departures)
 - [Browse EV with HERE Geocoding & Search API](https://github.com/heremaps/devrel-samples/tree/main/browse-ev-geocoding)
 - [Carpool Lane Routing](https://github.com/heremaps/devrel-samples/tree/main/carpool-lane-routing)
+- [Leaflet Real-Time Traffic](https://github.com/heremaps/devrel-samples/tree/main/leaflet-traffic)
+
 
 ## License
 
