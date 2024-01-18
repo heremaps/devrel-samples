@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HERE & Leaflet</title>
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css" />
+        <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"></script>
+        <style>
+           body, html { border: 0; padding: 0; margin: 0; }
+           #map { width: 100vw; height: 100vh; }
+           
+    /* Legend styling */
+    .legend {
+    padding: 6px 8px;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    color: #555;
+}
+
+.legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    border: 1px solid #888;
+}
+
+.legend .label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 4px;
+}
+    
+    /* Add style for the legend title */
+    .legend h3 {
+        text-align: center;
+        margin: 0 0 10px 0;
+        padding: 0;
+        color: #333;
+        font-size: 16px;
+    }
+
+</style>
+     </head>
+<body>
+
+    
+    <div id="map"></div>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
