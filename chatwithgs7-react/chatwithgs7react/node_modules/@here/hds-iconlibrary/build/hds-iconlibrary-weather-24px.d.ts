@@ -1,0 +1,45 @@
+export declare type HdsIconlibraryWeather_24pxId = 'clear-night_outline_24px' | 'clear-night_solid_24px' | 'cloudy-day_outline_24px' | 'cloudy-day_solid_24px' | 'cloudy-night_outline_24px' | 'cloudy-night_solid_24px' | 'flood_outline_24px' | 'flood_solid_24px' | 'fog_outline_24px' | 'fog_solid_24px' | 'hurricane_outline_24px' | 'hurricane_solid_24px' | 'overcast_outline_24px' | 'overcast_solid_24px' | 'rain_outline_24px' | 'rain_solid_24px' | 'rain-freezing_outline_24px' | 'rain-freezing_solid_24px' | 'rain-snow_outline_24px' | 'rain-snow_solid_24px' | 'shower-day_outline_24px' | 'shower-day_solid_24px' | 'shower-night_outline_24px' | 'shower-night_solid_24px' | 'smog_outline_24px' | 'smog_solid_24px' | 'snowfall_outline_24px' | 'snowfall_solid_24px' | 'storm_outline_24px' | 'storm_solid_24px' | 'stormy-day_outline_24px' | 'stormy-day_solid_24px' | 'stormy-night_outline_24px' | 'stormy-night_solid_24px' | 'weather-clear-day_outline_24px' | 'weather-clear-day_solid_24px' | 'windy_outline_24px' | 'windy_solid_24px';
+export declare type HdsIconlibraryWeather_24pxKey = 'ClearNightOutline_24px' | 'ClearNightSolid_24px' | 'CloudyDayOutline_24px' | 'CloudyDaySolid_24px' | 'CloudyNightOutline_24px' | 'CloudyNightSolid_24px' | 'FloodOutline_24px' | 'FloodSolid_24px' | 'FogOutline_24px' | 'FogSolid_24px' | 'HurricaneOutline_24px' | 'HurricaneSolid_24px' | 'OvercastOutline_24px' | 'OvercastSolid_24px' | 'RainOutline_24px' | 'RainSolid_24px' | 'RainFreezingOutline_24px' | 'RainFreezingSolid_24px' | 'RainSnowOutline_24px' | 'RainSnowSolid_24px' | 'ShowerDayOutline_24px' | 'ShowerDaySolid_24px' | 'ShowerNightOutline_24px' | 'ShowerNightSolid_24px' | 'SmogOutline_24px' | 'SmogSolid_24px' | 'SnowfallOutline_24px' | 'SnowfallSolid_24px' | 'StormOutline_24px' | 'StormSolid_24px' | 'StormyDayOutline_24px' | 'StormyDaySolid_24px' | 'StormyNightOutline_24px' | 'StormyNightSolid_24px' | 'WeatherClearDayOutline_24px' | 'WeatherClearDaySolid_24px' | 'WindyOutline_24px' | 'WindySolid_24px';
+export declare enum HdsIconlibraryWeather_24px {
+    ClearNightOutline_24px = "clear-night_outline_24px",
+    ClearNightSolid_24px = "clear-night_solid_24px",
+    CloudyDayOutline_24px = "cloudy-day_outline_24px",
+    CloudyDaySolid_24px = "cloudy-day_solid_24px",
+    CloudyNightOutline_24px = "cloudy-night_outline_24px",
+    CloudyNightSolid_24px = "cloudy-night_solid_24px",
+    FloodOutline_24px = "flood_outline_24px",
+    FloodSolid_24px = "flood_solid_24px",
+    FogOutline_24px = "fog_outline_24px",
+    FogSolid_24px = "fog_solid_24px",
+    HurricaneOutline_24px = "hurricane_outline_24px",
+    HurricaneSolid_24px = "hurricane_solid_24px",
+    OvercastOutline_24px = "overcast_outline_24px",
+    OvercastSolid_24px = "overcast_solid_24px",
+    RainOutline_24px = "rain_outline_24px",
+    RainSolid_24px = "rain_solid_24px",
+    RainFreezingOutline_24px = "rain-freezing_outline_24px",
+    RainFreezingSolid_24px = "rain-freezing_solid_24px",
+    RainSnowOutline_24px = "rain-snow_outline_24px",
+    RainSnowSolid_24px = "rain-snow_solid_24px",
+    ShowerDayOutline_24px = "shower-day_outline_24px",
+    ShowerDaySolid_24px = "shower-day_solid_24px",
+    ShowerNightOutline_24px = "shower-night_outline_24px",
+    ShowerNightSolid_24px = "shower-night_solid_24px",
+    SmogOutline_24px = "smog_outline_24px",
+    SmogSolid_24px = "smog_solid_24px",
+    SnowfallOutline_24px = "snowfall_outline_24px",
+    SnowfallSolid_24px = "snowfall_solid_24px",
+    StormOutline_24px = "storm_outline_24px",
+    StormSolid_24px = "storm_solid_24px",
+    StormyDayOutline_24px = "stormy-day_outline_24px",
+    StormyDaySolid_24px = "stormy-day_solid_24px",
+    StormyNightOutline_24px = "stormy-night_outline_24px",
+    StormyNightSolid_24px = "stormy-night_solid_24px",
+    WeatherClearDayOutline_24px = "weather-clear-day_outline_24px",
+    WeatherClearDaySolid_24px = "weather-clear-day_solid_24px",
+    WindyOutline_24px = "windy_outline_24px",
+    WindySolid_24px = "windy_solid_24px"
+}
+export declare const HDS_ICONLIBRARY_WEATHER_24PX_CODEPOINTS: {
+    [key in HdsIconlibraryWeather_24px]: string;
+};

@@ -1,0 +1,15 @@
+@import './hds-iconlibrary-navigation-image-8px';
+@import './hds-iconlibrary-navigation-image-16px';
+@import './hds-iconlibrary-navigation-image-24px';
+
+@define-mixin hds-iconlibrary-navigation-image-fonts {
+  @mixin hds-iconlibrary-navigation-image-8px-font;
+  @mixin hds-iconlibrary-navigation-image-16px-font;
+  @mixin hds-iconlibrary-navigation-image-24px-font;
+}
+
+@define-mixin hds-iconlibrary-navigation-image {
+  @mixin hds-iconlibrary-navigation-image-8px;
+  @mixin hds-iconlibrary-navigation-image-16px;
+  @mixin hds-iconlibrary-navigation-image-24px;
+}

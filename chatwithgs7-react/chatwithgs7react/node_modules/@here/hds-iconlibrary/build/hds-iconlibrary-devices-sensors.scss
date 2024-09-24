@@ -1,0 +1,12 @@
+@import './hds-iconlibrary-devices-sensors-16px';
+@import './hds-iconlibrary-devices-sensors-24px';
+
+@define-mixin hds-iconlibrary-devices-sensors-fonts {
+  @mixin hds-iconlibrary-devices-sensors-16px-font;
+  @mixin hds-iconlibrary-devices-sensors-24px-font;
+}
+
+@define-mixin hds-iconlibrary-devices-sensors {
+  @mixin hds-iconlibrary-devices-sensors-16px;
+  @mixin hds-iconlibrary-devices-sensors-24px;
+}

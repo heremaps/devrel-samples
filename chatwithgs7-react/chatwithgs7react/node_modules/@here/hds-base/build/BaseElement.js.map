@@ -1,0 +1,1 @@
+{"version":3,"file":"BaseElement.js","sourceRoot":"","sources":["../src/BaseElement.ts"],"names":[],"mappings":"AAAA,OAAO,EAAC,UAAU,EAAC,MAAM,KAAK,CAAC;AAE/B,MAAM,OAAgB,WAAY,SAAQ,UAAU;CAEnD","sourcesContent":["import {LitElement} from 'lit';\n\nexport abstract class BaseElement extends LitElement {\n  protected isTabbable: boolean | undefined;\n}\n"]}

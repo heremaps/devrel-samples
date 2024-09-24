@@ -1,0 +1,12 @@
+@import './hds-iconlibrary-misc-16px';
+@import './hds-iconlibrary-misc-24px';
+
+@define-mixin hds-iconlibrary-misc-fonts {
+  @mixin hds-iconlibrary-misc-16px-font;
+  @mixin hds-iconlibrary-misc-24px-font;
+}
+
+@define-mixin hds-iconlibrary-misc {
+  @mixin hds-iconlibrary-misc-16px;
+  @mixin hds-iconlibrary-misc-24px;
+}

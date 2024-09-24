@@ -6,8 +6,8 @@ This repository has source code and resources related to the sample applications
 
 The samples that are available are as follows:
 
-- [10-minute Web Map Application](https://github.com/heremaps/devrel-samples/tree/main/10-mins-web) 
-- [Thailand EV Routing](https://github.com/heremaps/devrel-samples/tree/main/ev-routing-via-waypoints-thailand) 
+- [10-minute Web Map Application](https://github.com/heremaps/devrel-samples/tree/main/10-mins-web)
+- [Thailand EV Routing](https://github.com/heremaps/devrel-samples/tree/main/ev-routing-via-waypoints-thailand)
 - [HERE Geocoding on Amazon Location Service](https://github.com/heremaps/devrel-samples/tree/main/aws-here-geocoding)
 - [Discover POIs with HERE Geocoding & Search API](https://github.com/heremaps/devrel-samples/tree/main/discover-poi)
 - [HERE Routing supports polygons for avoid area](https://github.com/heremaps/devrel-samples/tree/main/polygon-avoid-routing)
@@ -19,7 +19,7 @@ The samples that are available are as follows:
 - [Browse EV with HERE Geocoding & Search API](https://github.com/heremaps/devrel-samples/tree/main/browse-ev-geocoding)
 - [Carpool Lane Routing](https://github.com/heremaps/devrel-samples/tree/main/carpool-lane-routing)
 - [Leaflet Real-Time Traffic](https://github.com/heremaps/devrel-samples/tree/main/leaflet-traffic)
-
+- [ChatWithGS7 React](https://github.com/heremaps/devrel-samples/tree/main/chatwithgs7-react)
 
 ## License
 

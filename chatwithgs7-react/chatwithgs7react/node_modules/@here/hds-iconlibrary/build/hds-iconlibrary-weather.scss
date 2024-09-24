@@ -1,0 +1,12 @@
+@import './hds-iconlibrary-weather-16px';
+@import './hds-iconlibrary-weather-24px';
+
+@define-mixin hds-iconlibrary-weather-fonts {
+  @mixin hds-iconlibrary-weather-16px-font;
+  @mixin hds-iconlibrary-weather-24px-font;
+}
+
+@define-mixin hds-iconlibrary-weather {
+  @mixin hds-iconlibrary-weather-16px;
+  @mixin hds-iconlibrary-weather-24px;
+}

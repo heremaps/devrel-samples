@@ -1,0 +1,15 @@
+@import './hds-iconlibrary-map-view-8px';
+@import './hds-iconlibrary-map-view-16px';
+@import './hds-iconlibrary-map-view-24px';
+
+@define-mixin hds-iconlibrary-map-view-fonts {
+  @mixin hds-iconlibrary-map-view-8px-font;
+  @mixin hds-iconlibrary-map-view-16px-font;
+  @mixin hds-iconlibrary-map-view-24px-font;
+}
+
+@define-mixin hds-iconlibrary-map-view {
+  @mixin hds-iconlibrary-map-view-8px;
+  @mixin hds-iconlibrary-map-view-16px;
+  @mixin hds-iconlibrary-map-view-24px;
+}
