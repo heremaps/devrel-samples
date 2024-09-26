@@ -1,0 +1,18 @@
+.Appcontainer {
+  display: grid;
+  gap: 0.5rem;
+}
+button {
+  margin-inline: auto;
+  width: 25rem;
+}
+input {
+  margin-inline: auto;
+  width: 70rem;
+}
+h1 {
+  text-align: center;
+}
+textarea {
+  height: 100%;
+}
