@@ -19,7 +19,7 @@ The samples that are available are as follows:
 - [Browse EV with HERE Geocoding & Search API](https://github.com/heremaps/devrel-samples/tree/main/browse-ev-geocoding)
 - [Carpool Lane Routing](https://github.com/heremaps/devrel-samples/tree/main/carpool-lane-routing)
 - [Leaflet Real-Time Traffic](https://github.com/heremaps/devrel-samples/tree/main/leaflet-traffic)
-- [ChatWithGS7 React](https://github.com/heremaps/devrel-samples/tree/main/chatwithgs7react)
+- [ChatWithGS7 React](https://github.com/heremaps/devrel-samples/tree/main/chatwithgs7-react)
 
 ## License
 
