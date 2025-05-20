@@ -20,6 +20,7 @@ The samples that are available are as follows:
 - [Carpool Lane Routing](https://github.com/heremaps/devrel-samples/tree/main/carpool-lane-routing)
 - [Leaflet Real-Time Traffic](https://github.com/heremaps/devrel-samples/tree/main/leaflet-traffic)
 - [ChatWithGS7 React](https://github.com/heremaps/devrel-samples/tree/main/chatwithgs7-react)
+- [API Key Validator](https://github.com/heremaps/devrel-samples/tree/main/api-key-validator)
 
 ## License
 
