@@ -1,8 +1,17 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This application is a lightweight demo showcasing a client-side chat experience with GS7.  
+It is intended for exploration, learning, and demonstration purposes, rather than as a production-deployed service.
 
-Currently, two official plugins are available:
+## Security note
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+One moderate security advisory remains for Vite (GHSA-4w7w-66w2-5vf9).
+
+This advisory affects only the local Vite development server, specifically the handling of source map (`.map`) files during dependency optimization. It does **not** impact the built application or any production runtime environment.
+
+This project is a purely client-side demo and does not expose Vite development tooling, local servers, or filesystem access to untrusted users.
+
+Resolving this advisory would require upgrading to Vite 8, which introduces breaking changes that are not justified given the scope and risk profile of this demo.
+
+**Risk has been reviewed and explicitly accepted.**
+``
