@@ -1,4 +1,4 @@
 # validating-here-api-keys
 
-A demo app to validate HERE API keys by Alberts Jekabsons. Tech used React, Vite, TansTack Query
-Latest changes on 12/05/2026
+This project validates HERE API keys using direct REST calls.
+It does not use the HERE Maps JavaScript SDK.
